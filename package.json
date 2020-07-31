@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec index.js",
-    "serve": "nodemon index.js"
+    "serve": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +17,9 @@
     "pg": "^7.18.2",
     "pg-hstore": "^2.3.3",
     "request": "^2.88.2",
-    "sequelize": "^5.21.5",
+    "sequelize": "^6.3.3",
     "simple-xml-to-json": "^1.0.7",
     "xml2js": "^0.4.23"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+  "devDependencies": {}
 }
